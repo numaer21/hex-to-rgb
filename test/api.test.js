@@ -1,3 +1,8 @@
+/**
+ * @file api.test.js
+ * Tests HTTP responses for valid and invalid colour inputs,
+ * unknown routes, and unsupported methods.
+ */
 import assert from 'node:assert/strict';
 import { once } from 'node:events';
 import { after, before, describe, it } from 'node:test';
