@@ -1,3 +1,7 @@
+/**
+ * @file hex-to-rgb.test.js
+ * Tests valid hex-to-RGB conversions and rejection of invalid inputs.
+ */
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 import { hexToRgb } from '../src/hex-to-rgb.js';
